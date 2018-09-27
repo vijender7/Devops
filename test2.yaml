@@ -1,0 +1,9 @@
+---
+ - name: variable declaration
+   vars:
+    my_content: "This is var declaration testing:"
+   tasks:
+    - name: create a file in remote node
+     copy:
+       content: "{{my_content}}"
+       dest: /tmp/var_f1.txt
