@@ -1,0 +1,6 @@
+- name: Testing Ansible Tower
+  hosts: all
+  tasks:
+    - name: System Health Check
+      command: uptime
+       
