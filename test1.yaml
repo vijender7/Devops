@@ -3,4 +3,5 @@
   tasks:
     - name: System Health Check
       command: uptime
-       
+    - name: Root FS Utilization
+      command: df -Ph /
