@@ -2,7 +2,5 @@
   hosts: all
   tasks:
     - name: System Health Check
-      command: 
-         - uptime
-         - df -Ph /
+      command: df -Ph /
 
